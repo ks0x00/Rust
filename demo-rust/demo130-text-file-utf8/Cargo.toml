@@ -1,0 +1,6 @@
+[package]
+name = "demo130-text-file-utf8"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]

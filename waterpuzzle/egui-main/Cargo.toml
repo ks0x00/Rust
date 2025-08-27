@@ -1,0 +1,12 @@
+[package]
+name = "egui-main"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = "0.31"
+state = { version = "0.1.0", path = "../state" }
+puzzle = { version = "0.1.0", path = "../puzzle" }
+
+#[profile.release]
+#windows_subsystem = "windows"

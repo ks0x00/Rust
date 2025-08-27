@@ -1,0 +1,9 @@
+[package]
+name = "iced-main"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+iced = { version = "0.13", features = ["canvas", "tokio"] }
+state = { version = "0.1.0", path = "../state" }
+puzzle = { version = "0.1.0", path = "../puzzle" }

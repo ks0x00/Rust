@@ -1,0 +1,15 @@
+[package]
+name = "frac"
+version = "0.2.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+base = { version = "0.2.0", path = "../base" }
+func = { version = "0.2.0", path = "../func" }
+param = { version = "0.2.0", path = "../param" }
+image = "0.24.7"
+eframe = "0.22.0"
+chrono = "0.4.26"
+threadpool = "1.8.1"

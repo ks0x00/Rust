@@ -1,0 +1,9 @@
+[package]
+name = "demo710-dll-export"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]   # C/C++ 용 동적 라이브러리
+
+[dependencies]
