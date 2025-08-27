@@ -1,0 +1,14 @@
+[workspace]
+
+members = [
+    "base",
+    "func",
+    "param",
+    "frac",
+    "viewer",
+]
+
+exclude = [
+    "data",
+    "target",
+]

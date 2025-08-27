@@ -1,0 +1,19 @@
+[workspace]
+resolver = "2"
+
+members = [
+	"demo000-hello-iced", "demo001-without-console", "demo002-window-size",
+    "demo010-button",
+    "demo020-widget", "demo025-custom-widget", "demo030-font", 
+    "demo110-timer",
+    "demo120-key",
+    "demo130-mouse", "demo140-multi-event", 
+    "demo210-pick_list", "demo310-thread",
+    "demo510-canvas", "demo511-canvas-more", 
+    "demo512-canvas-bug", 
+    "demo515-canvas-with-cache",
+    "demo520-canvas-with-button",
+    "demo530-canvas-with-mouse", "ztest",
+    ]
+
+exclude = ["assets", "target"]

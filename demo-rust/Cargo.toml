@@ -1,0 +1,21 @@
+[workspace]
+resolver = "2"
+
+
+members = [
+    "demo130-text-file-utf8", "demo131-text-file-euc_kr",
+    "demo135-binary-file", "demo170-log", "demo172-log-file", "demo173-log-file-console",
+    "demo200-deref",
+    "demo210-box",
+    "demo220-rc",
+    "demo230-arc",
+    "demo240-refcell",
+    "demo310-thread",
+    "demo315-thread-pool",
+    "demo320-channel",
+    "demo325-channel-multi-sender",
+    "demo330-arc-mutex",
+    "demo340-async",
+    "demo341-await",
+    "demo710-dll-export", "demo711-dll-import", "demo712-dll-libloading",
+    "test0"]

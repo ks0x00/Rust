@@ -1,0 +1,11 @@
+[workspace]
+resolver = "2"
+
+members = [
+    "demo000-hello-egui",
+    "demo001-without-console", 
+    "demo010-button", 
+    "demo030-container", "demo040-font", 
+    "demo110-timer", 
+    "demo120-key"
+    , "demo130-mouse", "demo210-canvas"]
